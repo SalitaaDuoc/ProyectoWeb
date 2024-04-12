@@ -1,0 +1,55 @@
+    <!--TODO   FOOTER   -->
+
+    <footer class="custom-footer">
+      <div class="custom-logo-container">
+        <div>
+          <img src="imagenes/logo.png" alt="logo" class="custom-logo" />
+          <img
+            src="imagenes/instagram.png"
+            alt="instagram"
+            class="custom-icon"
+          />
+          <img src="imagenes/x.png" alt="x" class="custom-icon1" />
+        </div>
+      </div>
+      <div class="custom-titles-container">
+        <div class="custom-title">
+          <h2>Redirecciones</h2>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><a href="index.html">Inicio</a></li>
+            <li class="list-group-item"><a href="vinos.html">Vinos</a></li>
+            <li class="list-group-item">
+              <a href="pedidos.html">Informacion de Pedido</a>
+            </li>
+            <li class="list-group-item">
+              <a href="conocenos.html">Conócenos</a>
+            </li>
+          </ul>
+        </div>
+        <div class="custom-title1">
+          <h2 class="titulo">CONTÁCTANOS</h2>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item1">
+              <img src="imagenes/whatsapp.png" alt="wsp" class="custom-icon3" />
+              +56937469527
+            </li>
+            <li class="list-group-item2">
+              <img
+                src="imagenes/ubicacion.png"
+                alt="ubicacion"
+                class="custom-icon2"
+              />
+              Monte Paozu 1984
+            </li>
+            <li class="list-group-item1">
+              <img
+                src="imagenes/correo.png"
+                alt="correo"
+                class="custom-icon3"
+              />
+              ViñedoReal@vino.cl
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>

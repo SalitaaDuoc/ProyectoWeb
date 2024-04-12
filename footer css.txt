@@ -1,0 +1,106 @@
+/** FOOTER */
+
+.custom-footer {
+  background-color: #f2f2f2;
+  color: #800000;
+  padding: 20px;
+  text-align: center;
+}
+
+.custom-titles-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.custom-title {
+  width: 30%; /* Ajusta el ancho según sea necesario */
+  margin-top: -140px;
+}
+
+.custom-title1 {
+  width: 10%; /* Ajusta el ancho según sea necesario */
+  margin-top: -140px;
+  margin-right: 100px;
+}
+
+.list-group {
+  padding-left: 0px;
+  list-style: none;
+}
+
+.list-group-item {
+  border: none;
+  background-color: transparent;
+  border: none;
+}
+
+.list-group-item1 {
+  border: none;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.list-group-item2 {
+  border: none;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center; /* Alinea verticalmente los elementos */
+  margin-left: 20px;
+}
+
+.list-group-item2 img {
+  margin-right: 5px; /* Espacio entre la imagen y el texto */
+}
+
+.list-group-item2 span {
+  flex-grow: 1; /* Hace que el texto ocupe todo el espacio restante */
+  margin-right: 5px; /* Ajusta el margen derecho según sea necesario */
+  white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+}
+
+.custom-logo-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap; /* Permitir que los elementos se envuelvan en múltiples líneas */
+}
+
+.custom-logo {
+  width: 150px;
+  height: 100px;
+  display: block;
+}
+
+.custom-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+}
+
+.custom-icon1 {
+  width: 40px;
+  height: 30px;
+  margin: 0 5px;
+}
+
+.custom-icon3 {
+  width: 25px; /* Ajusta el tamaño de la imagen según sea necesario */
+  height: auto; /* Mantén la proporción de la imagen */
+  margin-right: 5px; /* Espacio entre la imagen y el texto */
+  vertical-align: middle; /* Alinea verticalmente la imagen con el texto */
+  margin-bottom: 10px;
+}
+
+.custom-icon2 {
+  width: 30px; /* Ajusta el tamaño de la imagen según sea necesario */
+  height: 30px; /* Mantén la proporción de la imagen */
+  margin-right: 5px; /* Espacio entre la imagen y el texto */
+  margin-left: -3px;
+}
+
+.list-group-item a {
+  color: #800000; /* Cambia el color de los enlaces a #800000 */
+}

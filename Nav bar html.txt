@@ -1,0 +1,35 @@
+<nav class="nav">
+      <div id="logo" class="nav-logo">
+        <img src="imagenes/logo.png" alt="Logo" />
+      </div>
+      <div class="nav-menu" id="navMenu">
+        <ul>
+          <li><a href="index.html" class="link active">Inicio</a></li>
+          <li><a href="vinos.html" class="link">Vinos</a></li>
+          <li><a href="pedidos.html" class="link">Informacion de Pedido</a></li>
+          <li><a href="conocenos.html" class="link">Conócenos</a></li>
+        </ul>
+      </div>
+      <div class="header-content">
+        <form id="Busqueda" class="d-flex" role="search">
+          <input
+            type="search"
+            placeholder="Buscar..."
+            aria-label="Search"
+            class="my-search-input"
+          />
+          <button class="btn btn-outline-success" type="submit">
+            <img src="imagenes/busqueda.png" alt="busqueda" />
+          </button>
+        </form>
+      </div>
+      <div class="nav-button">
+        <a href="login.html" class="btn white-btn">Inicio de Sesión</a>
+        <button class="btn" id="carritoBtn" onclick="carrito()">
+          <img src="imagenes/carrito.png" alt="carrito" />
+        </button>
+      </div>
+      <div class="nav-menu-btn">
+        <i class="bx bx-menu" onclick="myMenuFunction()"></i>
+      </div>
+    </nav>
